@@ -668,10 +668,10 @@ footer {
         display: none;
     }
 
-    .about__image:hover .about__image-lg {
+    .about__image:hover .about__image-sm {
         border: none;
     }
-    .about__image-sm{
+    .about__image-lg{
          margin-left: 4.5rem;
     }
     .about__right p {
