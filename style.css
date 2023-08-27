@@ -654,7 +654,7 @@ footer {
     /*about*/
     .about__container {
         grid-template-columns: 1fr;
-        gap: 10rem;
+        gap: 1rem;
         text-align: center;
         margin: 0 0 0 2rem
     }
@@ -662,9 +662,8 @@ footer {
     .about__title{
         margin-left: 2.5rem;
     }
-
     .about__image-bg,
-    .about__image-lg {
+    .about__image-sm {
         display: none;
     }
 
@@ -672,7 +671,10 @@ footer {
         border: none;
     }
     .about__image-lg{
-         margin-left: 4.5rem;
+        display: flex;
+        filter: saturate(1) brightness(1);
+        margin-left: -2.8rem;
+        width: 24rem;
     }
     .about__right p {
         width: 100%;
