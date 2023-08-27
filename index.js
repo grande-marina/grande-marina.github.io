@@ -68,9 +68,6 @@ allImages.forEach((value)=>{
     }
 })
 
-if (req.headers["user-agent"] && req.headers["user-agent"].includes("curl")) {
-    throw new HttpError("Unauthorized", HttpCode.Unauthorized)
-}
 
 
 
