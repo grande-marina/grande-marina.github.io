@@ -675,6 +675,8 @@ footer {
         filter: saturate(1) brightness(1);
         margin-left: 0;
         width: 20rem;
+        bottom:0;
+        left: 0;
     }
     .about__right p {
         width: 100%;
