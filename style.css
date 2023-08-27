@@ -673,8 +673,8 @@ footer {
     .about__image-lg{
         display: flex;
         filter: saturate(1) brightness(1);
-        margin-left: -2.8rem;
-        width: 24rem;
+        margin-left: 0;
+        width: 20rem;
     }
     .about__right p {
         width: 100%;
